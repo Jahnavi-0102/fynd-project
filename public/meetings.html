@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetings-App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/external/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/public/external/normalize.css"/>
+    <link rel="stylesheet" href="/public/css/utils.css"/>
+    <link rel="stylesheet" href="/public/css/app.css"/>
+    <link rel="stylesheet" href="/public/css/nav.css"/>
+    <link rel="stylesheet" href="/public/css/pages/meetings.css" />
+</head>
+<body>
+    <main class="container">
+        <h1 class="main-head">Meetings</h1>
+        <hr>
+        <section class="head">
+            <a href="filter.html" class="heading">Filter / Search Meetings</a>
+            <a href="meetings.html" class="heading active">Add a meeting</a>
+        </section>
+        <hr>
+        <section class="add-meetings">
+            <div class="new-meetings">
+                <h2 class="title">Add a new meeting</h2>
+                <hr>
+                <div class="details">Date</div>
+                <input type="date" class="date full-width" name="meeting-date" />
+                <div class="details">Start Time (hh:mm)</div>
+                <input type="time" class="time" name="start-time" />
+                <div class="details">End Time (hh:mm)</div>
+                <input type="time" class="time" name="end-time" />
+                <div class="details">Description</div>
+                <textarea name="textarea" class="agenda full-width" rows="10" cols="50">What is agenda of the meeting?</textarea>
+                <div class="details">EmailId's of attendees, or team's short</div>
+                <input type="text" class="emails full-width" name="email" />
+                <div class="description">Separate emailids / team sort names by commas - team short names always begin with @</div>
+                <button class="add">Add meeting</button>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>

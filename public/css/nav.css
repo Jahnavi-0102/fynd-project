@@ -1,0 +1,65 @@
+.d-lg-none{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    width: 100%;
+    margin: 0, auto;
+}
+.d-flex a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main-menu{
+    background-color: rgb(248, 245, 245);
+    display: flex;
+    flex-flow: row wrap; 
+    text-align: center;
+}
+.menu {
+    display: inline-flex;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    flex-flow: row wrap;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.menu-list{
+    flex-basis: 100%;
+    display: inline-block;
+    list-style: none;
+    padding: 0.5em;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: rgb(47, 79, 79);
+}
+.menu-list a{
+    display: inline-block;
+    text-decoration: none;
+    color: darkslategray;
+}
+.mail{
+    color: rgb(23, 175, 189);
+}
+.menu-list a:hover{
+    color: black;
+}
+.menu-left li.active{
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(184, 182, 182);
+}
+@media (min-width: 680px){
+    .menu{
+        align-items: center;
+    }
+    .menu, .menu-list{
+        flex-basis: auto;
+        flex-flow: nowrap;
+    }
+    .nav-menu{
+        justify-content: space-between;
+    }
+}
+

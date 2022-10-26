@@ -1,0 +1,71 @@
+.main-head{
+    margin-bottom: 0.2em;
+}
+hr{
+    color: lightgray;
+}
+.head{
+    display: flex;
+}
+a{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+.heading{
+    padding: 5px;
+    margin: 1em;
+    margin-bottom: 0;
+}
+.add-meetings{
+    background-color: var(--primary-color);
+    border: 2px solid;
+    border-color: var(--primary-color);
+    border-radius: 4px;
+}
+.new-meetings{
+    margin: 15px;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: azure;
+}
+.details{
+    margin-top: 1em;
+}
+.full-width{
+    width: 100%;
+}
+.agenda{
+    height: 100px;
+    resize: vertical;
+    color: gray;
+}
+input, textarea{
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 0.5em;
+
+}
+.description{
+    font-size: 12px;
+    color: azure;
+    margin-top: 0.2em;
+}
+.add{
+    margin-top: 1em;
+    background-color: rgb(14, 115, 124);
+    color: azure;
+    border: 1px solid;
+    border-color: rgb(14, 115, 124);
+    border-radius: 4px;
+}
+.head a.active{
+    border: 1px solid black;
+    border-bottom: none;
+    color: initial;
+}
+a:hover{
+    color: blueviolet;
+}

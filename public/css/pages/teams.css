@@ -1,0 +1,16 @@
+hr{
+    color: grey;
+}
+.view{
+    color: darkslategrey;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    margin-top: 1em;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 2px;
+}

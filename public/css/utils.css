@@ -1,0 +1,23 @@
+.d-flex {
+    display: flex !important;
+    width: 100%;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+
+.d-sm-none {
+    display: none;
+}
+
+@media ( min-width: 680px ) {
+    .d-lg-none{
+        display: none !important;
+    }
+    .d-sm-none {
+        display: block;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meetings-App</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,900;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/external/@fortawesome/fontawesome-free/css/all.min.css">
+        <link rel="stylesheet" href="/public/external/normalize.css"/>
+        <link rel="stylesheet" href="/public/css/utils.css"/>
+        <link rel="stylesheet" href="/public/css/app.css"/>
+        <link rel="stylesheet" href="/public/css/nav.css"/>
+        <link rel="stylesheet" href="/public/css/pages/filter.css" />
+    </head>
+    <body>
+        <main class="container">
+            <h1 class="main-head">Meetings</h1>
+            <hr>
+            <section class="head">
+                <a href="filter.html" class="heading active">Filter / Search Meetings</a>
+                <a href="meetings.html" class="heading">Add a meeting</a>
+            </section>
+            <hr>
+            <section class="search-meeting">
+                <div class="meetings">
+                    <h2 class="title">Search for meetings</h2>
+                    <hr>
+                    <div class="details">Date</div>
+                    <select name="date" class="input full-width">
+                        <option value="All">ALL</option>
+                        <option value="Past">PAST</option>
+                        <option value="Today">TODAY</option>
+                        <option value="Upcoming">UPCOMING</option>
+                    </select>
+                    <div class="details">Search for</div>
+                    <textarea name="textarea" class="input full-width" rows="10" cols="50">Search using words which describe the meeting</textarea>
+                    <button class="search">Search</button>
+                </div>
+            </section>
+            <section class="match">
+                <h2>Meetings matching search criteria</h2>
+                <hr>
+                <div class="meetings-match">
+                    <div class="box">
+                            <div class="info">
+                                <span class="date-of-meeting">12 September 2020</span><span class="time-of-meeting"> 6:00-7:00</span><br><br>
+                                <span class="name">Project kickoff</span><br><br>
+                                <button class="btn">Keep Yourself</button>
+                                <hr>
+                                <div class="second">
+                                    <span class="num">Attendees:</span><span> mark@example.comnaje@example.com</span><br><br>
+                                    <input type="number" class="input-num" name="quantity" min="1" max="100">
+                                    <button class="btn-add">Add</button>
+                                </div>
+                            </div>
+                    </div> 
+                    <div class="box">
+                            <div class="info">
+                                <span class="date-of-meeting">12 September 2020</span><span class="time-of-meeting"> 9:00-10:30</span><br><br>
+                                <span class="name">AWS architecture</span><br><br>
+                                <button class="btn">Keep Yourself</button>
+                                <hr>
+                                <div class="second">
+                                    <span class="num">Attendees:</span><span> mark@example.comnaje@example.com</span><br><br>
+                                    <input type="number" class="input-num" name="quantity" min="1" max="100">
+                                    <button class="btn-add">Add</button>
+                                </div>
+                            </div> 
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+.date-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.dmy{
+    font-weight: bold;
+    font-size: 20px;
+}
+.calendar {
+    position: relative;
+}
+.calendar-hour {
+    display: flex;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.hour-value{
+    width: 40px;
+}
+.hour-box{
+    flex-basis: auto;
+    flex-grow: 1;
+    background-color: var(--primary-color);
+}
